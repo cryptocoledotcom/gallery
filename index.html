@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="css/gallery.css">
+    <script src="js/gallery.js"></script>
+</head>
+<body onload="initializeTabIndices()"> 
+    
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
+    
+    <img class="preview" src="images/c++.png" alt="C++ Logo" onmouseover="upDate(this)" onmouseout="unDo()">
+    
+    <img class="preview" src="images/c.png" alt="C# Logo" onmouseover="upDate(this)" onmouseout="unDo()">
+    
+    <img class="preview" src="images/css3.png" alt="CSS3 Logo" onmouseover="upDate(this)" onmouseout="unDo()">
+
+    <img class="preview" src="images/html5.png" alt="HTML5 Logo" onmouseover="upDate(this)" onmouseout="unDo()">
+
+    <img class="preview" src="images/javascript.png" alt="Javascript Logo" onmouseover="upDate(this)" onmouseout="unDo()">
+
+    <img class="preview" src="images/python.jpg" alt="Python Logo" onmouseover="upDate(this)" onmouseout="unDo()">
+
+</body>
+</html>
